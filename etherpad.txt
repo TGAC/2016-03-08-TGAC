@@ -1,0 +1,128 @@
+Welcome to TGAC Software Carpentry's Bootcamp Etherpad for 8-9 March 2016!
+
+You are here: https://public.etherpad-mozilla.org/p/SWC_March_2016_-_TGAC
+The workshop info is here: http://bit.ly/swctgac16
+Bootcamp lessons are here: http://software-carpentry.org/lessons/
+
+Your instructors are: 
+    - Rob Davey, TGAC - @froggleston
+    - Richard Smith-Unna, University of Cambridge - @blahah404
+    
+Your helpers are:
+    - Katie Barr, TGAC
+    - Nicola Soranzo, TGAC
+    - Anthony Etuk, TGAC
+
+Please ask any questions in the chat box in the bottom right, or use a pink sticky!
+
+If you have any NoMachine issues, e.g. screen resolution or input language, then let us know!
+
+-------------------------------------------------------------------
+
+Feedback (add a '+' next to the response you would like to make)
+Topic 1, Using the shell. 
+Was the material presented:
+
+Going too slow:++++++
+Going too fast:
+Just right: +++++
+
+Was the content of the materials:
+    
+Too hard:
+Too easy:+
+Just right:+++++++
+    
+Topic 2, Git.
+Was the material presented:
+
+Going too slow:
+Going too fast:+
+Just right:++++++++++
+
+Was the content of the materials:
+    
+Too hard:
+Too easy:
+Just right:++++++++++++
+
+Topic 3, Python.
+Was the material presented:
+
+Going too slow:
+Going too fast:++
+Just right:+++++
+
+Was the content of the materials:
+    
+Too hard:
+Too easy:+
+Just right:++++++
+
+General comments:
+
+- We like feedback! :)
+have an introduction round at the beginning where people attending course tell about themselves and why they want to do the course. - great idea!
+We spent a bit too long on the unix so the python was quite rushed
+
+
+-------------------------------------------------------------------
+
+Topic 1: Using the shell to do more in less time
+http://swcarpentry.github.io/shell-novice/
+
+Q: how do we work with directories that have spaces in their names? (thanks Annemarie)
+A: you need to 'escape' any names with spaces, in one of two ways:
+    1. put a backslash before each space e.g dir/dir\ with\ spaces/
+    2. put quotes around the path e.g. "dir/dir with spaces" (thanks Nicola S)
+Also note that tab-completion with automatically escape spaces in paths it completes (thanks Thomas B)
+
+Q: how do we add comments to a bash script?
+A: start a comment with # 
+
+Q: Is there a bash cheat sheet?
+A: http://cli.learncodethehardway.org/bash_cheat_sheet.pdf
+
+Pattern matching in filenames is called globbing - https://en.wikipedia.org/wiki/Glob_(programming)
+We mentioned more complex pattern matching with "regular expressions", but this is outside the scope of the bootcamp. More info is in the "Finding Things" section of the bash lessons, and more info is here: http://www.regular-expressions.info/
+
+Up and down arrows cycle through your command history, saving you having to type the same commands over and over.
+
+Control-C pretty much cancels any program that's running. Sometimes, particularly if you've tried to output very large files, the system is thinking so hard about the thing you've asked it to do that you have to hold Control-C down until the command to cancel the program.
+
+A lot of Unix commands let you put flags together into a single flag, e.g. "ls -l" and "ls -a" can be combined into "ls -la". HOWEVER, you can't combine the "longhand" versions of flags, e.g. git commit --all and git commit --message can't be combined into one -- flag.
+
+Topic 2: Using version control to manage and share information
+http://swcarpentry.github.io/git-novice/
+
+Git learning resources:
+    https://try.github.io
+    https://www.atlassian.com/git/tutorials/
+    
+    
+
+Q: How do you go to the beginning/end of a file whilst editing in Nano?
+A: Just like the shell prompt, you can use ^A for the beginning of a line, and ^E for the end. To get to the end of the file, you can use ^W^Y to go to the top ("Where Is..." submenu) and ^W^V to go to the bottom.
+
+Q: Can you combine the git commit -a to commit all and -m to add a message?
+A: Yes! Use "git commit -am 'your message'"
+
+Q: Can you ignore files once they've been added to git?
+A: Yes! But....
+
+-------------------------------------------------------------------
+
+Topic 3: Python and good programming practice
+http://swcarpentry.github.io/python-novice-inflammation/ (up to lesson 6)
+
+Example code written in the python session: https://github.com/Blahah/planets
+
+Topic 4: Debugging and testing
+http://swcarpentry.github.io/python-novice-inflammation/07-errors.html
+
+
+
+Mini-topic: How to run an open science project
+http://slides.com/billymeinke/mozora-workshop#/
+
+
